@@ -1,0 +1,33 @@
+.element{
+  border: 1px solid;
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.mainDiv{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.isActive{
+  background-color: red;
+}
+
+input,button{
+  display: block;
+  margin-bottom: 20px;
+}
+
+body{
+  position: relative;
+    height: 100vh;
+}
+
+.app{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-49%,-50%);
+}
